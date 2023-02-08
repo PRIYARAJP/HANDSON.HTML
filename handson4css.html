@@ -1,159 +1,343 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>handson4 in css</title>
-        <link rel="icon" type="image/x-icon" href="https://priyarajp.github.io/HTMLFILESEA21/PR%20LOGO%20.jpg" />
-        <style>
-            .one{
-                text-align: center;
-                background: linear-gradient(
-                
-      90deg,
-      rgb(249, 5, 5) 5%,
-      rgba(3, 243, 23, 0.6) 60%,
-      rgb(236, 247, 26) 100%
-    ), radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 28%);
-    width: 39.6cm;
-            }
-            .two{
-                background-color: rgb(4, 149, 149);
-                width: 5cm;
-               
-               text-align: center;
-                list-style-position: outside;
-                padding-left: 8cm;
-                padding-right: 8cm;
-                border-style: solid;
-                border-color: red;
-                border-radius: 10px;
-                position: absolute;
-                left: 10cm;
-                right: 10cm;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson4css</title>
+    <link rel="icon" type="image/x-icon" href="https://priyarajp.github.io/HTMLFILESEA21/PR%20LOGO%20.jpg" />
+    <style>
+        .over{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            gap: 30px;
+        }
+        .item1{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-image: linear-gradient(to left,red, green,yellow);
+            height: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .item2{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: span 3;
+            background-color: rgb(31, 107, 137);
+            border: 5px solid rgb(143, 5, 5);
+            border-radius: 20px;
+            font-size: 30px;
+            margin-left: 100px;
 
-            }
-            p{
-                font-style: bold;
-                background-color: aqua;
-                border-style: solid;
-                border-color: red;
-                border-radius: 10px;
-                width: 10cm;
-                text-align: center;
-            }
-            h6{
-                background-color: rgb(33, 196, 196);
-                border-style: solid;
-                border-color: rgb(175, 27, 111);
-                border-radius: 10px;
-                width:39.6cm;
-                height: 3.2cm;
-                position:absolute;
-                top: 4cm;
-                left: 0cm;
-                
-            }
-            .three{
-                position: absolute;
-                top: 4.3cm;
-            }
-            .four{
-                position: absolute;
-                top: 4.3cm;
-                left: 14cm;
-            }
-            .five{
-                position: absolute;
-                top: 4.3cm;
-                left: 29cm;
-            }
-            .six{
-                position: absolute;
-                top: 5.9cm;
-                left: 14cm; 
-            }
-            .seven{
-                margin-top: 30cm;
-            }
-            .eig{
-               
-                text-align: center;
-                position: absolute;
-                top: 8cm;
-                width: 39.6cm;
-               
-                background: linear-gradient(
-      90deg,
-      rgb(249, 5, 5) 5%,
-      rgba(228, 240, 8, 0.933) 60%,
-      rgb(244, 1, 1) 100%
-    ), radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 28%);
-            }
-            .nine{
-                background-image: radial-gradient( rgb(0, 13, 255),rgb(47, 240, 8));
-                width: 39.6cm; 
-                height: 8cm;
-                position: absolute;
-                top: 10cm;
-            }
-            .ten{
-                background-color: rgb(230, 215, 48);
-                border-color: rgb(128, 35, 122);
-                border-style: solid;
-                color: brown;
-                width: 5cm;
-                position: absolute;
-                top: 12cm;
-                left: 5cm;
-            }
-            .el{
-                color: white;
-                background-color: rgb(146, 3, 3);
-                text-align: center;
-                position: absolute;
-                top: 19cm;
-                width: 39.6CM;
-                padding-bottom: .4cm;
-            }
-            .th{
-                background-color: orange;
-                color: white;
-                position: absolute;
-                width: 39.6cm;
-                height: 4cm;
-                top: 24cm;
-
-            }
-        </style>
-    </head>
-    <body>
-        <h1 class="one"><ins>OUR OFFERINGSs</ins></h1>
-        <ul class="two" >
-            
-                <li >Home</li>       
-                <li>Contact us</li>  
-                <li>Review us</li>  
+        }
+     
+        .inner1{
            
-        </ul>
-        <h6></h6>
-        <p class="three">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste impedit nisi ipsam dolorem veritatis ea provident facere obcaecati necessitatibus esse!
-        </p>
-        <p class="four">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste impedit nisi ipsam dolorem veritatis ea provident facere obcaecati necessitatibus esse!</p>
-        <p class="five">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad aperiam sit temporibus laborum impedit vel distinctio, accusantium rerum ipsam.</p>
-        <p class="six">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam cupiditate modi earum cum adipisci corporis ipsum at. Dolores, asperiores.        </p>
+            display: grid;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            list-style-position: outside;
+            font-size: 20px;
+        }
+        .item3{
+            display: grid;
+            grid-row-start: 3;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-end: 3;
+            display: grid;
+            background-color:aqua;
+            border: 5px solid blueviolet;
+            border-radius: 20px;
+            font-size: 30px;
+        }
+        .inner2{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background-color:skyblue;
+            border: 5px solid rgb(248, 38, 5);
+            border-radius: 20px;
+            font-size: 15px;
+            width: 400px;
+            padding: 10px;
+            margin-left: 30px;
+        }
+        .inner3{
+            display: grid;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            background-color:skyblue;
+            border: 5px solid rgb(248, 38, 5);
+            border-radius: 20px;
+            font-size: 15px;
+            width: 400px;
+            padding: 10px;
+        }
+        .inner4{
+            display: grid;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            background-color:skyblue;
+            border: 5px solid red;
+            border-radius: 20px;
+            font-size: 15px;
+            width: 400px;
+            padding: 10px;
+            margin-right: -50px;
+        }
+        .inner5{
+            display: grid;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            background-color:skyblue;
+            border: 5px solid red;
+            border-radius: 20px;
+            font-size: 15px;
+            width: 400px;
+            padding: 10px;
+            
+        }
+        .item4{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-image: linear-gradient(to left,red,yellow ,red);
+            height: 40px;
+            text-align: center;
+            font-size: 30px;
+            height: 60px;
+        }
+        .item5{
+            display: grid;
+            grid-row-start: 5;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-end: 7;
+            background-image: radial-gradient(blue,green);
+            height: 40px;
+            border: 5px solid red;
+            border-radius: 20px;
+            height: 350px;
+            font-size: 40px;
+            text-align: center;
+            text-decoration: underline;
+
+        }
+        .inner6{
+            color: brown;
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            background-color:rgb(175, 218, 19);
+            border: 5px solid red;
+            border-radius: 20px;
+            font-size: 17px;
+            width: 200px;
+            height: 150px;
+            margin: 75px;
+            
+        }
+        .inner7{
+            display: grid;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            background-color:rgb(175, 218, 19);
+            border: 5px solid red;
+            border-radius: 20px;
+            font-size: 17px;
+            width: 200px;
+            height: 150px;
+            margin: 75px;
+            
+        }
+        .inner8{
+            display: grid;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            background-color:rgb(175, 218, 19);
+            border: 5px solid red;
+            border-radius: 20px;
+            font-size: 17px;
+            width: 200px;
+            height: 150px;
+            margin: 75px;
+        }
+        .inner9{
+            display: grid;
+            grid-column-start: 4;
+            grid-column-end: 4;
+            background-color:rgb(175, 218, 19);
+            border: 5px solid red;
+            border-radius: 20px;
+            font-size: 17px;
+            width: 200px;
+            height: 150px;
+            margin: 75px;
+        }
+        .item6{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-image: linear-gradient(to left,red, green,yellow);
+            height: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .inner10{
+           
+           background-color: rgb(5, 250, 5);
+           color: white;
+           text-align: center;
+           height: 100px;
+        }
+        .inner11{
+            background-color: rgb(56, 189, 241);
+            color: white;
+            height: 100px;
+        }
+        .inner12{
+            background-color: blue;
+            color: white;
+            height: 100px;
+        }
+        .inner13{
+            grid-row-start:8;
+            grid-row-end: 8;
+            grid-column-start: 5;
+            grid-column-end: 5;
+            background-color: black;
+            color: white;
+        }
+        .item7{
+            display: grid;
+           
+            background-color:orange;
+            height: 40px;
+            
+            font-size: 25px;
+            height: 150px;
+        }
+        .item8{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background-color: rgb(5, 250, 5);
+           color: white;
+           text-align: center;
+           height: 100px;
+           font-size: 35px;
+        }
+        .item9{
+            
+            background-color: rgb(56, 189, 241);
+            color: white;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            font-size: 35px;
+        }
+        .item10{
+            
+            background-color: blue;
+            color: white;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            font-size: 23px;
+        }
+        .item11{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 8;
+            grid-row-end:span 4 ;
+            background-color: black;
+            color: white;
+  font-size: 24px;
+
+        }
+        .item12{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 9;
+            grid-row-end:span 3 ;
+            font-size: 25px;
+            background-color: orange;
+            color: white;
+        }
         
-        <h1 class="eig"><ins>OUR TOP PERFORMER IN JEE ADVANCE.</ins></h1>
-        <p class="nine"></p>
-        <p class="ten" style="position: absolute; left: 14cm;"><ins >Rishav<br><br>203/300<br><br>GOT DELHI.<br><br></ins></p>
-        <p class="ten"><ins>AKASH GUPTA<br><br> 213/300 <br><br>GOT IIT BOMBAY.<br><br></ins></p>  
-        <p class="ten" style="position: absolute; left: 23cm;"><ins >Gavray Raj<br><br>192/300<br><br>GOT IIT ROORKET.<br><br></ins></p>  
-        <p class="ten" style="position: absolute; left: 32cm;"><ins >Shivam Chauhan<br><br>176/300<br><br>GOT IIT KANPUR.<br><br></ins></p>              
-        <h2 class="el"> THE BEST PLACE FOR THE BEST CAREER.</h2>
-        <h1 style="background-color: rgb(108, 173, 44) ; color: white ;position: absolute ; width: 13cm;height: 2.1cm; top: 20.5cm; text-align: center;">You can ask doubt <br>in our doubt section.</h1>
-        <h1 style="background-color: rgb(79, 164, 234) ; color: white ;position: absolute ; width: 13cm;height: 2.1cm; top: 20.5cm;left: 13.5cm; ">Get 30% off by applying code <br>while purchasing course.</h1>
-        <h2 style="background-color: rgb(63, 4, 241) ; color: white ;position: absolute ; width: 13cm;top: 20.5cm;left: 27cm; ">We assure that your hard<br>work & our teachin will<br>give bright result.</h2>
-        <nav class="th">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus dolore velit, quis quos ducimus natus cupiditate adipisci tenetur explicabo sint, aperiam quidem qui vitae optio reiciendis quasi soluta assumenda officiis consequuntur labore. Odit blanditiis nii temporibus debitis culpa dicta?
-        </nav>
-        <h1 style="background-color: rgb(123, 224, 249); position: absolute ; width: 39.6CM ; top: 28cm; text-align: center;">ALL THE BEST !</h1>
-        <hr class="seven">
-    </body>
+        .item13{
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: skyblue;
+            height: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="over">
+        <div class="item1"><ins>OUR OFFERINGs</ins></div>
+        <div class="item2">
+        <div class="inner1"> 
+            <ul>
+            <li>Home</li>
+            <li>Contact us</li>
+            <li>Review us</li>
+        </ul></div>
+    </div>
+        <div class="item3">
+            <div class="inner2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste impedit nisi ipsam dolorem veritatis ea provident facere obcaecati necessitatibus esse!
+
+            </div>
+            <div class="inner3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste impedit nisi ipsam dolorem veritatis ea provident facere obcaecati necessitatibus esse!
+
+            </div>
+            <div class="inner4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad aperiam sit temporibus laborum impedit vel distinctio, accusantium rerum ipsam.
+
+            </div>
+            <div class="inner5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam cupiditate modi earum cum adipisci corporis ipsum at. Dolores, asperiores.
+
+            </div>
+        </div>
+        <div class="item4"><ins>OUR TOP PERFORMER IN JEE ADVANCE.</ins></div>
+        
+        <div class="item5">
+            <div class="inner6">
+                <br>AKASH GUPTA<br><br>
+                213/300<br><br>
+                GOT IIT BOMBAY.<br><br>
+            </div>
+            <div class="inner7"><br>Rishav<br><br>
+
+                203/300<br><br>
+                
+                GOT DELHI.<br></div>
+            <div class="inner8"><br>Gavray Raj<br><br>
+
+                192/300<br><br>
+
+                GOT IIT ROORKET.<br>
+                </div>
+            <div class="inner9"><br>Shivam Chauhan<br><br>
+                176/300<br><br>
+                GOT IIT KANPUR.<br></div>
+        </div>
+        <div class="item6">THE BEST PLACE FOR THE BEST CAREER.</div>
+    
+        
+        <div class="item8">You can ask doubt<br>
+            in our doubt section.</div>
+        <div class="item9">Get 30% off by applying code<br>
+            while purchasing course.</div>
+        <div class="item10">We assure that your hard<br>
+            work & our teachin will<br>
+            give bright result.</div>
+        <div class="item11">1.Study<br><ins>Material<br>2.Tests</ins><br>3.Doubt<br><ins>Mentors<br>4.Lecture</ins><br> 5.Our <br><ins>Subscript</ins><br>6.Our <br><ins>Faculty</ins></div>
+        <div class="item12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus dolore velit, quis quos ducimus natus cupiditate adipisci tenetur explicabo sint, aperiam quidem qui vitae optio reiciendis quasi soluta assumenda officiis consequuntur labore. Odit blanditiis nii temporibus debitis culpa dicta?</div>
+        <div class="item13">ALL THE BEST!</div>
+    </div>
+</body>
 </html>
