@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moon walk</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            border-top: 15px solid white;
+            border-left: 15px solid orange;
+            border-right: 15px solid green;
+            height:26cm;
+            width:39cm;
+        }
+        .conts{
+            width:39cm;
+            height: 16cm;
+            position: relative;
+            background-image: url(https://priyarajp.github.io/HTMLHANDSON1/sky.jpg);
+            background-repeat:repeat;
+            background-size: cover;
+            position: absolute;
+            top: 15px;
+            
+        }
+        .cont{
+            width:39cm;
+            height:10cm;
+            position: relative;
+            background-image: url(https://priyarajp.github.io/HTMLHANDSON1/city.png);
+            background-repeat:repeat;
+            background-size: cover;
+            animation: back 1000s linear infinite ;
+            position: absolute;
+            top: 5.5cm;
+
+        }
+        @keyframes back{
+            0%{
+
+            }
+            50%{
+                background-position: -100000px;
+            }
+            100%{
+                background-position: -100000px;
+            }
+        }
+        .conten{
+            width:39cm;
+            height:10cm;
+            position: relative;
+            background-image: url(https://priyarajp.github.io/HTMLHANDSON1/road.jpg);
+            background-repeat:repeat;
+            background-size: cover;
+            animation: back 1000s linear infinite ;
+            position: absolute;
+            top: 15.5cm;
+
+        }
+        @keyframes back{
+            0%{
+
+            }
+            50%{
+                background-position: -100000px;
+            }
+            100%{
+                background-position: -100000px;
+            }
+        }
+        .car{
+            width: 15cm;
+            height: 5cm;
+           
+            background-image: url(https://priyarajp.github.io/HTMLHANDSON1/car.png);
+            background-repeat:repeat;
+            background-size: cover;
+            position: absolute;
+            top: 12.5cm;
+            left: 35%;
+        }
+       .wheel1{
+        background-image: url(https://priyarajp.github.io/HTMLHANDSON1/wheel.png);
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        position: absolute;
+        top: 17.2cm;
+        left: 16.75cm;
+        transform:rotate(360deg);
+        animation: boxer 1s linear infinite;
+       }
+       @keyframes boxer{
+                0%{
+                    transform:translate(-50%,-50%) rotate(0deg);
+                }
+                100%{
+                    transform:translate(-50%,-50%) rotate(360deg);
+                }
+            }
+            .wheel12{
+        background-image: url(./wheel.png);
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        position: absolute;
+        top: 17.2cm;
+        left: 25.9cm;
+        transform:rotate(360deg);
+        animation: boxer 1s linear infinite;
+       }
+       @keyframes boxer{
+                0%{
+                    transform:translate(-50%,-50%) rotate(0deg);
+                }
+                100%{
+                    transform:translate(-50%,-50%) rotate(360deg);
+                }
+            }
+            .flog{
+                background-image: url(./Tiranga1.svg);
+                width: 100px;
+                height: 100px;
+                background-size: cover;
+                position: absolute;
+        top: 12.2cm;
+        left: 24.5cm;
+            }
+      
+            .sun{
+                background-image: url(https://priyarajp.github.io/HTMLHANDSON1/23771-3-sun-free-download.png);
+                width: 100px;
+                height: 100px;
+                background-size: cover;
+                position: absolute;
+        top: 1cm;
+        left: 32cm;
+            }
+         h1{
+
+            text-align: center;
+            
+         }       
+       .orange{
+        background-color: orange;
+        position: absolute;
+        top: 30px;
+        left: 10cm;
+        font-size:50px;
+        text-align: center;
+       }
+       .white{
+        background-color: white;
+        position: absolute;
+        font-size:50px;
+        left: 14.8cm;
+        top: 30px;
+       }
+       .green{
+        background-color: green;
+        position: absolute;
+        font-size:50px;
+        left: 25.4cm;
+        top: 30px;
+       }
+    </style>
+</head>
+<body>
+    <div class="conts"></div>
+        <a class="orange">HAPPY </a>
+        <a class="white">INDEPENDANCE</a>
+        <a class="green">DAY </a>
+    <div class="cont"></div>
+        <div class="sun"></div>
+        <div class="conten"></div>
+            <div class="car"></div>
+                <div class="wheel1"></div>
+                    <div class="wheel12">   </div>
+                    <div class="flog"></div>
+    
+                   
+        <video src="" style="padding-left: 8cm;"; height="920px" width="500 " loop autoplay muted>
+    
+</body>
+</html>
