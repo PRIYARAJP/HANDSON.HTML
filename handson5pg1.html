@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson5 in Css</title>
+    <link rel="icon" type="image/x-icon" href="https://priyarajp.github.io/HTMLFILESEA21/PR%20LOGO%20.jpg" />
+    <style>
+        body{
+            background-color: yellow;
+            text-align: center;
+            align-items: center;
+        }
+        .box2{
+                width: 100px;
+                height: 100px;
+                background-color:rgb(96, 78, 78);
+                transform:skewy(30deg);
+                animation: boxr 10s linear infinite;
+                
+                
+            }
+            @keyframes boxr{
+                50%{
+                    transition: 6s;
+                    transform:skew(-30deg);
+                    animation-direction:reverse;
+                }
+            }
+            .box3{
+                width: 100px;
+                height: 100px;
+                background-color:darkgray;
+                transform:skew(30deg);
+                animation: boxr 3s linear infinite;
+                
+                
+            }
+            @keyframes boxr{
+                50%{
+                    transition: 1s;
+                    transform:skew(-30deg);
+                    animation-direction:reverse;
+                }
+            }
+                .box4{
+                width: 100px;
+                height: 100px;
+                background-color:rgb(79, 19, 217);
+                animation: boxrs 3s linear infinite;
+                
+            }
+            @keyframes boxrs{
+                50%{
+                    transition: 3s;
+                    transform:rotateZ(180deg);    
+                }
+                100%{
+                    transition: 3s;
+                    transform:rotateZ(180deg);    
+                }
+                
+               
+                
+            }
+            .box5{
+                width: 50px;
+                height: 100px;
+                background-color:rgb(22, 6, 55);
+                animation: boxer 1.5s linear infinite;
+                 
+            }
+            @keyframes boxer{
+                50%{
+                    transform:scaleX(2);
+                    transition: 1.5s;
+                }
+                
+                
+            }
+            .box6{
+                width: 100px;
+                height: 50px;
+                background-color:rgb(87, 28, 4);
+                animation: boxers 1.5s linear infinite;
+                  
+            }
+            @keyframes boxers{
+                50%{
+                    transform:scaley(2);
+                    transition: 1.5s; 
+                }
+            }
+           
+            .box7{
+                width: 100px;
+                height: 100px;
+                background-color:rgb(6, 109, 20);
+                animation: boxrse 3s linear infinite;
+                
+            }
+            @keyframes boxrse{
+                50%{
+                    transition: 3s;
+                    transform:rotateZ(180deg);    
+                }
+                
+            
+            }
+            .over1{
+            display:inline-grid;
+            grid-template-columns: auto auto auto  auto;
+           
+            column-gap: 70px;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <h1 >Try To replicate this</h1><br><br>
+    <div class="over1">
+        <div class="item" style="margin-bottom: 100px;"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="box2"></div>
+        <div class="item" style="margin-bottom: 50px;">1.</div><div class="item"></div><div class="item"></div><div class="item"></div>
+        <div class="item"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="item" style="margin-bottom: 50px;">2.</div><div class="item"></div><div class="item"></div><div class="item"></div>
+        <div class="item"></div>
+        <div class="box4"></div>
+        <div class="box4"></div>
+        <div class="box4"></div>
+        <div class="item" style="margin-bottom: 50px;">3.</div><div class="item"></div><div class="item"></div><div class="item"></div>
+        <div class="item"></div>
+        <div class="box6"></div>
+        <div class="box5"></div>
+        <div class="box7"></div>
+        <div class="item" style="margin-bottom: 50px;">4.</div><div class="item"></div><div class="item"></div><div class="item"></div>
+
+    </div>
+    <a href="https://priyarajp.github.io/HANDSON.HTML/handson5pg2css.html"><h1 ><ins>Lets go and try another things</ins></h1></a>
+    
+</body>
+</html>
