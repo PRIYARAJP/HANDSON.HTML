@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANDSON6CSS</title>
+    <link rel="icon" type="image/x-icon" href="https://priyarajp.github.io/HTMLFILESEA21/PR%20LOGO%20.jpg" />
+    <style>
+        body{
+            
+            background-image: url(https://priyarajp.github.io/HANDSON.HTML/sahara_desert.jpg);
+            background-size: auto;
+            height: 60cm;
+         
+        }
+        
+        .cards{
+            width: 300px;
+            height: 350px;
+          
+            display: flex;
+            flex-flow:row wrap;
+            margin:25px ;
+            border-radius: 20px;
+            box-sizing: border-box;
+            align-self: center;    
+        }
+        .cards:hover{
+            transform: translateY(-20px);
+            
+        }
+        @media only screen and (max-width: 856px ){
+               
+               .cards{
+                 width: 450px;
+                 height: 200px;
+                
+           
+               }
+            }
+            @media only screen and (max-width: 460px ){
+               
+               .cards{
+                 width: 300px;
+                 height: 350px;
+                
+           
+               }
+               
+            }
+       
+       
+        .cg4{
+            display: flex;
+            flex:1;
+            flex-flow:column wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .cg{
+            display: flex;
+            flex:1;
+            flex-flow:row wrap;
+            justify-content:end;
+            align-items: center;
+            
+            flex-wrap: wrap;
+            
+        }
+    
+            
+        .card1{
+         
+            background-image: url(https://priyarajp.github.io/HANDSON.HTML/s11.jpg);
+            background-size: cover;
+        }
+       
+        .card2{
+            background-image: url(https://priyarajp.github.io/HANDSON.HTML/pic-2_480.png);
+            background-size: cover;
+        }
+        .card3{
+            background-image: url(https://priyarajp.github.io/HANDSON.HTML/pic-3_480.png);
+            background-size: cover;
+        }
+        .card4{
+            background-image: url(https://priyarajp.github.io/HANDSON.HTML/pic-4_480.png);
+            background-size: cover;
+        }
+        .sah{
+            background-image: url(https://priyarajp.github.io/HANDSON.HTML/logo.png);
+            background-size: cover;
+            width: 55px;
+            height: 50px;
+            justify-content: right;
+            align-items: center;
+            text-align:center;
+           margin-left: 10%;
+           position: absolute;
+           top: 2%;
+           left: 2%;
+        }
+      
+    
+        .home{
+            width: 200px;
+            display: flex;
+            border-radius: 20px;
+            box-sizing: border-box;
+            align-items: center;
+            flex-flow:column wrap;
+            
+        }
+        .home1{
+            width: 10px;
+            display: flex;
+            padding: 15px;
+            margin-right: 10px;
+            margin-left: 10px;
+            box-sizing: border-box;
+            align-items: center;
+            flex-flow:column wrap;
+            background-image: url(https://priyarajp.github.io/HANDSON.HTML/menu.png);
+            background-size: cover;
+            
+        }
+        .cg5{
+            display: flex;
+            flex:1;
+            flex-flow:row wrap;
+            justify-content: right;
+            align-items: center;
+            color: white;
+            margin-right: 100px;
+        }
+
+        .cgsah{
+            display: flex;
+            flex:1;
+            flex-flow:row wrap;
+            justify-content: flex-start;
+            justify-content: right;
+         
+           
+            flex-wrap: wrap;
+        }
+        p{
+            color: white;
+            padding-left: 10px;
+        }
+        button{
+            width: 200px;
+            height: 50px;
+            border-radius: 50px;
+            border-color:white ;
+        }
+        .top{
+            display: flex;
+            flex:1;
+            flex-flow:row wrap;
+            justify-content: flex-start;
+            justify-content: right;
+            flex-wrap: wrap;
+            
+           
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding-left: 50px;
+        }
+        .text{
+            font-size: 90px;
+        }
+    
+        @media only screen and (max-width: 856px ){
+               
+               .text{
+                font-size: 70px;
+               }
+            }
+            @media only screen and (max-width: 460px ){
+               
+                .text{
+                font-size: 50px;
+               }
+            }
+    </style>
+    
+</head>
+<body>
+    <nav class="cg5">
+       
+        <div class="top">
+            <a href="#"><h3>HOME</h3></a>
+            <a href="#"><h3>REGION</h3></a>
+            <a href="#"> <h3>ABOUT</h3></a>
+          </div>
+     
+         <nav class="home1"></nav>
+        </nav>
+        
+<nav class="cg">
+    <nav class="cgsah">
+        <nav class="sah"> </nav>
+       
+        <p>
+            <b class="text">SAHARA</b><br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus magnam eligendi deserunt excepturi consequatur ullam<br>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerumi
+        </p>
+             <button>EXPLORE</button>
+            </nav>
+
+     <nav class="cg4">
+    
+    <nav class="cards card1 media">
+        <p><b>Kalahari Desert</b><br><br> Lorem ipsum dolor sit, amet consectetur<br><br> adipisicing elit, evenient perspiciatis.</p></nav>
+    <nav class="cards card2 media">
+        <p><b>Kalahari Desert</b><br><br> Lorem ipsum dolor sit, amet consectetur<br><br> adipisicing elit, evenient perspiciatis.</p></nav>
+   </nav>
+   <nav class="cg4">
+    <nav class="cards card3 media">
+      
+        <p><b>Kalahari Desert</b><br><br> Lorem ipsum dolor sit, amet consectetur<br><br> adipisicing elit, evenient perspiciatis.</p>
+    </nav>
+    <nav class="cards card4 media">
+        
+        <p><b>Kalahari Desert</b><br><br> Lorem ipsum dolor sit, amet consectetur<br><br> adipisicing elit, evenient perspiciatis.</p>
+   
+</nav>
+
+
+</nav>
+    
+    
+</body>
+</html>
